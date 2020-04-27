@@ -1,0 +1,17 @@
+INSERT INTO tva_owner.tva_sensor_ubication(tva_sensor_ubication_pk, description,created_at, updated_at, mill_code_pk) VALUES 	(1001,'SID-ALDE','2019-12-08 00:00:00','2019-12-08 00:00:00','SID'	);
+INSERT INTO tva_owner.tva_sensor_ubication(tva_sensor_ubication_pk, description,created_at, updated_at, mill_code_pk) VALUES 	(1002,'SID-ALDE','2019-12-08 00:00:00','2019-12-08 00:00:00','SID'	);
+
+INSERT INTO tva_owner.tva_rule_type(tva_rule_type_pk, name, description, created_at, updated_at) VALUES  ( 1001 ,'Siderca LACO2 P20 Person','Detección de Personas en Areas marcadas del Porton 20','2019-12-08 00:00:00','2019-12-08 00:00:00');        
+INSERT INTO tva_owner.tva_rule_type(tva_rule_type_pk, name, description, created_at, updated_at) VALUES  ( 1002 ,'Siderca LACO2 P20 Truck','Detección de Camiones en Areas marcadas del Porton 20','2019-12-08 00:00:00','2019-12-08 00:00:00');        
+                   
+INSERT INTO tva_owner.tva_rule_type(tva_rule_type_pk, name, description, created_at, updated_at) VALUES  ( 1003 ,'Siderca LACO2 P21 Person','Detección de Personas en Areas marcadas del Porton 21','2019-12-08 00:00:00','2019-12-08 00:00:00');        
+INSERT INTO tva_owner.tva_rule_type(tva_rule_type_pk, name, description, created_at, updated_at) VALUES  ( 1004 ,'Siderca LACO2 P21 Truck','Detección de Camiones en Areas marcadas del Porton 21','2019-12-08 00:00:00','2019-12-08 00:00:00');        
+                
+INSERT INTO tva_owner.tva_sensor(tva_sensor_pk, name, nodel, description, sensor_type_id, mill, created_at, updated_at, tva_sensor_ubication_fk ) VALUES  ( 1001 ,'Gate 20','n/a','Gate 20', 1 ,'SID','2019-12-08 00:00:00','2019-12-08 00:00:00', 1001 );
+INSERT INTO tva_owner.tva_sensor(tva_sensor_pk, name, nodel, description, sensor_type_id, mill, created_at, updated_at, tva_sensor_ubication_fk ) VALUES  ( 1002 ,'Gate 21','n/a','Gate 21', 1 ,'SID','2019-12-08 00:00:00','2019-12-08 00:00:00', 1002 );
+                 
+INSERT INTO tva_owner.tva_rule(tva_rule_pk, description, rule_legacy, type_sensor, tva_sensor_rule_fk, tva_rule_type_fk, is_private, seq, mill_code) VALUES  ( 1001 ,'Siderca LACO2 P20 Person', 1001 , 1 , 1001 , 1001 , FALSE , 0 ,'SID' );
+INSERT INTO tva_owner.tva_rule(tva_rule_pk, description, rule_legacy, type_sensor, tva_sensor_rule_fk, tva_rule_type_fk, is_private, seq, mill_code) VALUES  ( 1002 ,'Siderca LACO2 P20 Truck', 1002 , 1 , 1001 , 1002 , FALSE , 0 ,'SID');
+                   
+INSERT INTO tva_owner.tva_rule(tva_rule_pk, description, rule_legacy, type_sensor, tva_sensor_rule_fk, tva_rule_type_fk, is_private, seq, mill_code) VALUES  ( 1003 ,'Siderca LACO2 P21 Person', 1003 , 1 , 1002 , 1003 , FALSE , 0 ,'SID' );
+INSERT INTO tva_owner.tva_rule(tva_rule_pk, description, rule_legacy, type_sensor, tva_sensor_rule_fk, tva_rule_type_fk, is_private, seq, mill_code) VALUES  ( 1004 ,'Siderca LACO2 P21 Truck', 1004 , 1 , 1002 , 1004 , FALSE , 0 ,'SID' );

@@ -1,0 +1,5 @@
+C:\Users\T14125\source\repos\ApiKar\ManagerErrors\bin\Debug\ManagerErrors.dll
+C:\Users\T14125\source\repos\ApiKar\ManagerErrors\bin\Debug\ManagerErrors.pdb
+C:\Users\T14125\source\repos\ApiKar\ManagerErrors\obj\Debug\ManagerErrors.csproj.CoreCompileInputs.cache
+C:\Users\T14125\source\repos\ApiKar\ManagerErrors\obj\Debug\ManagerErrors.dll
+C:\Users\T14125\source\repos\ApiKar\ManagerErrors\obj\Debug\ManagerErrors.pdb

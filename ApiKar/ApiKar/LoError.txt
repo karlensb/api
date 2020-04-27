@@ -1,0 +1,2 @@
+ERROR No se ha recibido el parametro ProvinciaABuscar ERROR System.NullReferenceException: Object reference not set to an instance of an object.
+   at ApiKar.Controllers.ProvinciaController.add(ProvinciaRequest model) in C:\Users\T14125\source\repos\ApiKar\ApiKar\Controllers\ProvinciaController.cs:line 36

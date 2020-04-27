@@ -1,0 +1,16 @@
+Son 3 Soluciones Distribuidas en las Carpetas*
+ApiKar
+Ejemplouser
+ConsumoDeApi
+En cada una de estas carpetas hay una solución con su mismo nombre**, la cual debe ser abierta y ejecutada 
+En ApiKar se encuentra la solución ApiKar.sln donde están las api  de autenticación Básica y búsqueda de lot y lan ***, al  ejecutar la solución y enseguida  se nos abrirá una pagina donde vamos  a poder observar la descripción de las api desarrolladas.
+Dentro de la carpeta ApiKar hay otra  carpeta ApiKar  donde se encuentra el desarrollo, allí vamos a encontrar un archivo LoError.txt donde vamos a visualizar la captura de errores de la api y también vamos a ver un archivo UsuarioValido.json donde tenemos el login y pasword de un usuario valido para ejecutar los ejemplos si quisiéramos probar con otro usuario solo hay que  cambiarlo en este archivo, al ejecutar esta solución se va a desplegar una pagina de ayuda para el consumo de las api.
+
+En la carpeta EjemploUser que a su vez tiene una carpeta con el mismo nombre vamos a encontrar la solución ApiSegura, la cual debemos abrir y ejecutar, esta api no cuenta con página de ayuda ya que por su naturaleza y las diferentes referencias de seguridad que utiliza no es compatibles con la estructura de ayuda de la api, esta api una vez que el usuario hace el login devuelve un token,  para que a partir de ese momento no envíe más credenciales de inicio de sesión en cada petición HTTP.  En lugar de las credenciales, simplemente se debe enviar el token codificado en cada petición HTTP.
+Esta solución también tiene su archivo UsuarioValido.json  donde tenemos el login y pasword del al usuario valido para ejecutar los ejemplos si quisiéramos probar con otro usuario solo hay que  cambiarlo en este archivo
+ 
+La carpeta consumoApi  tiene una solución con el mismo nombre , la cual es simplemente una aplicación Windows que consume las diferentes api desarrolladas , al ejecutarla es importante que estén corriendo las api mencionadas anteriormente, al validar login y Pasword tienes para elegir si deseas la autenticación básica o la autenticación que devuelve el token.
+Nota
+*La carpeta User2 es solo de referencia
+**EjemploUser tiene la solución dentro de una carpeta con el mismo Nombre 
+***La api que se conecta a una api publica , tuve que desarrollarla localmente por que el ambiente de desarrollo donde trabajo por razones de seguridad no permite conexión a servicios que no estén registrados , sin embargo se desarrollo una api interna que devuelve un json igual, y se dejo comentado el código en caso que se quisiera probar

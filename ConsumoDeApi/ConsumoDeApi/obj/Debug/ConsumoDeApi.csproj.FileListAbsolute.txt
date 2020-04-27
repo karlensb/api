@@ -1,0 +1,13 @@
+C:\Users\T14125\source\repos\ConsumoDeApi\ConsumoDeApi\bin\Debug\ConsumoDeApi.exe.config
+C:\Users\T14125\source\repos\ConsumoDeApi\ConsumoDeApi\bin\Debug\ConsumoDeApi.exe
+C:\Users\T14125\source\repos\ConsumoDeApi\ConsumoDeApi\bin\Debug\ConsumoDeApi.pdb
+C:\Users\T14125\source\repos\ConsumoDeApi\ConsumoDeApi\bin\Debug\Newtonsoft.Json.dll
+C:\Users\T14125\source\repos\ConsumoDeApi\ConsumoDeApi\obj\Debug\ConsumoDeApi.csprojAssemblyReference.cache
+C:\Users\T14125\source\repos\ConsumoDeApi\ConsumoDeApi\obj\Debug\ConsumoDeApi.Form1.resources
+C:\Users\T14125\source\repos\ConsumoDeApi\ConsumoDeApi\obj\Debug\ConsumoDeApi.Properties.Resources.resources
+C:\Users\T14125\source\repos\ConsumoDeApi\ConsumoDeApi\obj\Debug\ConsumoDeApi.csproj.GenerateResource.cache
+C:\Users\T14125\source\repos\ConsumoDeApi\ConsumoDeApi\obj\Debug\ConsumoDeApi.csproj.CoreCompileInputs.cache
+C:\Users\T14125\source\repos\ConsumoDeApi\ConsumoDeApi\obj\Debug\ConsumoDeApi.csproj.CopyComplete
+C:\Users\T14125\source\repos\ConsumoDeApi\ConsumoDeApi\obj\Debug\ConsumoDeApi.exe
+C:\Users\T14125\source\repos\ConsumoDeApi\ConsumoDeApi\obj\Debug\ConsumoDeApi.pdb
+C:\Users\T14125\source\repos\ConsumoDeApi\ConsumoDeApi\obj\Debug\ConsumoDeApi.FormularioProvincias.resources
